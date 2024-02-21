@@ -1,0 +1,17 @@
+{
+    "autorun": false,
+    "terminals": [
+        {
+            "name": "Frontend",
+            "focus": true,
+            "onlySingle": true,
+            "commands": ["cd packages/frontend", "pnpm start"]
+        },
+        {
+            "name": "Backend",
+            "focus": true,
+            "onlySingle": true,
+            "commands": ["cd packages/backend", "pnpm start"]
+        }
+    ]
+}
