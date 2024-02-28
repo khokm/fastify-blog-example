@@ -18,7 +18,14 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  packages/admin: {}
+  packages/admin:
+    devDependencies:
+      '@types/node':
+        specifier: ^20.11.21
+        version: 20.11.21
+      tsx:
+        specifier: ^4.7.1
+        version: 4.7.1
 
   packages/backend:
     dependencies:

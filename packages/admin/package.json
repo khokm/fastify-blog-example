@@ -1,3 +1,10 @@
 {
-    "name": "@fastify-blog-example/admin"
+    "name": "@fastify-blog-example/admin",
+    "scripts": {
+        "start": "tsx src/startProgram.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.21",
+        "tsx": "^4.7.1"
+    }
 }
