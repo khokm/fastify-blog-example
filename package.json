@@ -1,3 +1,13 @@
 {
-    "name": "fastify-blog-example"
+    "name": "fastify-blog-example",
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "prettier-plugin-organize-imports": "^3.2.4",
+        "typescript": "^5.3.3"
+    },
+    "prettier": {
+        "plugins": [
+            "prettier-plugin-organize-imports"
+        ]
+    }
 }
