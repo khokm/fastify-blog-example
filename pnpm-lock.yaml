@@ -19,6 +19,10 @@ importers:
         version: 5.3.3
 
   packages/admin:
+    dependencies:
+      '@fastify-blog-example/client':
+        specifier: workspace:^
+        version: link:../client
     devDependencies:
       '@types/node':
         specifier: ^20.11.21
@@ -51,6 +55,9 @@ importers:
 
   packages/frontend:
     dependencies:
+      '@fastify-blog-example/client':
+        specifier: workspace:^
+        version: link:../client
       react:
         specifier: ^18.2.0
         version: 18.2.0

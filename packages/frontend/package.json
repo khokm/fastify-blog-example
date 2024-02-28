@@ -5,6 +5,7 @@
         "build": "tsx build.ts"
     },
     "dependencies": {
+        "@fastify-blog-example/client": "workspace:^",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },

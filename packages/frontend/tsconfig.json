@@ -7,5 +7,6 @@
 
         "lib": ["ES2015", "ES2016.Array.Include", "DOM"], // Добавляем DOM
         "jsx": "react-jsx" // Поддержка синтаксиса .tsx в vscode
-    }
+    },
+    "references": [{ "path": "../client" }]
 }
