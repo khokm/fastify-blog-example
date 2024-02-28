@@ -1,5 +1,8 @@
 {
     "name": "fastify-blog-example",
+    "scripts": {
+        "ts:check": "tsc -b"
+    },
     "devDependencies": {
         "prettier": "^3.2.5",
         "prettier-plugin-organize-imports": "^3.2.4",
