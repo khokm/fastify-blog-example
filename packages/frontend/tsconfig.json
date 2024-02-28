@@ -1,0 +1,11 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "include": ["./src", "./scripts"], // Конфиг действует только на файлы в src и scripts
+    "compilerOptions": {
+        "baseUrl": ".", // Разрешение относительных импортов относительно этой директории.
+        "paths": { "~/*": ["./src/*"] }, // Список alias-ов для импортов. Подхватываются Bundler-ом (esbuild).
+
+        "lib": ["ES2015", "ES2016.Array.Include", "DOM"], // Добавляем DOM
+        "jsx": "react-jsx" // Поддержка синтаксиса .tsx в vscode
+    }
+}

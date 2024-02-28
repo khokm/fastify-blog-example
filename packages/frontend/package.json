@@ -1,3 +1,18 @@
 {
-    "name": "@fastify-blog-example/frontend"
+    "name": "@fastify-blog-example/frontend",
+    "scripts": {
+        "start": "tsx build.ts --dev",
+        "build": "tsx build.ts"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.21",
+        "@types/react": "^18.2.60",
+        "@types/react-dom": "^18.2.19",
+        "esbuild": "^0.20.1",
+        "tsx": "^4.7.1"
+    }
 }
