@@ -1,0 +1,25 @@
+// Базовые опции для всех проектов.
+{
+    "compilerOptions": {
+        // Опции для корректной работы tsc и vscode.
+        "lib": ["ES2015", "ES2016.Array.Include"], // Берем минимум: CoreJS стандарта es2015
+        "types": [], // Никаких импортов types из node_modules
+        "target": "ES2015", // Чтобы не ругалось на синтаксис es2015: например, for-of.
+        "moduleResolution": "Bundler", // Работу по разрешению импортов оставляем для Bundler-а (tsx).
+        "noEmit": true, // Отключаем компиляцию, эту работу выполняет Bundler (tsx)
+        "isolatedModules": true, // рекомендовано для правильной работы Bundler-а.
+        "forceConsistentCasingInFileNames": true, //case-insensitive - зло
+        "skipLibCheck": true, // Не проверяем .d.ts файлы
+        "incremental": true, // Ускоряем проверки через tsc -b
+
+        // Опции для чистоты кода, необязательные
+        "strict": true,
+        "useUnknownInCatchVariables": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "allowUnreachableCode": false
+    }
+}
