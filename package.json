@@ -1,7 +1,8 @@
 {
     "name": "fastify-blog-example",
     "scripts": {
-        "ts:check": "tsc -b"
+        "ts:check": "tsc -b",
+        "graph": "npx -y nx graph"
     },
     "devDependencies": {
         "prettier": "^3.2.5",
