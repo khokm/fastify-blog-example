@@ -3,6 +3,7 @@
     "references": [
         { "path": "./packages/backend" }, //
         { "path": "./packages/frontend" },
-        { "path": "./packages/admin" }
+        { "path": "./packages/admin" },
+        { "path": "./packages/client" }
     ]
 }
